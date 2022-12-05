@@ -39,3 +39,8 @@ header li a {
 #profilepic{
     width: 200px;
 }
+
+h1, h2, p, ul li{
+    color: white;
+
+}
