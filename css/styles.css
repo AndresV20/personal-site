@@ -3,12 +3,41 @@
     color: #212121;
     padding: 20px;
 }
+.homeCont{
+    font-family: Verdana, sans-serif;
+	margin: 50px;
+	padding: 20px;
+	max-width: 150ch;
+	text-align: left;
+	background-color: rgb(184, 184, 184);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+}
+#profilepic{
+   position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+.socialCont{
+    font-family: Verdana, sans-serif;
+	margin: 50px;
+	padding: 20px;
+	max-width: 150ch;
+	text-align: left;
+	background-color: rgb(138, 169, 183);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+}
 html{
     background-color: rgb(255, 255, 255);
 }
 body{
     height: 125px;
     margin-top: 80px;
+    
 }
 header{
     background-color: rgb(180, 47, 47);
@@ -34,10 +63,7 @@ header ul li a {
 header ul li a:hover{
     color: antiquewhite;
 }
-aside #profilepic{
-    margin-left: 900px;
-    margin-top: 0px;
-}
+
 
 h1, h2, p, ul li{
     color: rgb(0, 0, 0);
