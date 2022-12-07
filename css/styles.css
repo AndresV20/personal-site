@@ -31,6 +31,22 @@
 	overflow-wrap: break-word;
 	line-height: 1.5;
 }
+#socials{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+#socials .socialBtn{
+    background-color: #212121;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 10px;
+
+}
+#socials .socialBtn:hover{
+    background-color: rgb(180, 47, 47)
+}
 html{
     background-color: rgb(255, 255, 255);
 }
