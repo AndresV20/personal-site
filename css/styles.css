@@ -7,7 +7,7 @@
     font-family: Verdana, sans-serif;
 	margin: 50px;
 	padding: 20px;
-	max-width: 150ch;
+	max-width: auto;
 	text-align: left;
 	background-color: rgb(205, 202, 202);
 	word-wrap: break-word;
@@ -18,6 +18,18 @@
    position: absolute;
     top: 150px;
     right: 100px;
+}
+
+.aboutCont{
+    font-family: Verdana, sans-serif;
+	margin: 50px;
+	padding: 20px;
+	max-width: auto;
+	text-align: left;
+	background-color: rgb(122, 179, 187);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
 }
 
 .socialCont{
@@ -31,12 +43,12 @@
 	overflow-wrap: break-word;
 	line-height: 1.5;
 }
-#socials{
+#socials, #cv{
     justify-content: center;
     list-style: none;
     display: flex;
 }
-#socials .socialBtn{
+#socials .socialBtn, #cvItem{
     background-color: #212121;
     color: white;
     padding: 10px 15px;
