@@ -3,11 +3,12 @@
     color: #212121;
     padding: 20px;
 }
-.homeCont{
+.homeCont {
     font-family: Verdana, sans-serif;
 	margin: 50px;
 	padding: 20px;
 	max-width: auto;
+    max-height: fit-content;
 	text-align: left;
 	background-color: rgb(205, 202, 202);
 	word-wrap: break-word;
@@ -16,7 +17,7 @@
 }
 #profilepic{
    position: absolute;
-    top: 150px;
+    top: 300px;
     right: 100px;
 }
 
@@ -98,3 +99,14 @@ h1, h2, p, ul li{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.experienceCont{
+    font-family: Verdana, sans-serif;
+	margin: 50px;
+	padding: 20px;
+	max-width: 150ch;
+	background-color: rgb(138, 169, 183);
+	line-height: 1.5;
+}
+.exp{
+    list-style: none;
+}
