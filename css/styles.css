@@ -41,6 +41,10 @@ h1, h2, p, ul li{
     color: #212121;
     padding: 20px;
 }
+.homeIcon{
+    display: flex;
+    float: right;
+}
 .homeCont {
     font-family: Verdana, sans-serif;
 	margin: 50px;
@@ -70,7 +74,21 @@ h1, h2, p, ul li{
 	overflow-wrap: break-word;
 	line-height: 1.5;
 }
-
+#cvItem{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+#cvItem #doc{
+    background-color: #212121;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+#cvItem #doc:hover{
+    background-color: rgba(255, 255, 255, 0.247) ;
+}
 .socialCont{
     font-family: Verdana, sans-serif;
 	margin: 50px;
